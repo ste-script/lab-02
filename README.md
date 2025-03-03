@@ -6,7 +6,7 @@ PCD a.y. 2024-2025 - ISI LM UNIBO - Cesena Campus
 
 - Solution to Exercise 01
 	- Exploiting Concurrent Thinking: naturally decomposing the problem to reduce complexity, using an active component (thread) for each word (`WordFallingAgent`)
-- Solution Exercise 02 
+- Solution to Exercise 02 
 	- Simple solution with 2 threads + General solution with N threads
 		- Enhancing JVM heap memory if needed: -Xms, -Xmx options (e.g. -Xms2G -Xmx4G)
 	- Measuring speed-up and efficiency
