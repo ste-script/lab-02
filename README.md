@@ -37,16 +37,16 @@ PCD a.y. 2024-2025 - ISI LM UNIBO - Cesena Campus
 	- [A full perspective about using JPF](https://github.com/javapathfinder/jpf-core/wiki/Different-applications-of-JPF)
 
 - Installing/Configuring JPF 
-	- [(**Recommended**) Gradle project template](https://github.com/pslab-unibo/jpf-template-project/tree/master) (G. Aguzzi)
+	- Following instructions from [JPF web site](https://github.com/javapathfinder/jpf-core/wiki/How-to-install-JPF)
+		- works only with **JDK 1.8** 
+	- [Gradle project template](https://github.com/pslab-unibo/jpf-template-project/tree/master) (G. Aguzzi)[**Recommended**] 
 		- This is a template for using JPF with Gradle. It contains a build script that configures JPF and its dependencies, and a sample class that can be used to run JPF on a simple Java program.
-			- details in the [README](https://github.com/pslab-unibo/jpf-template-project/tree/master)
 		- To setup:
 			- first clone the project:  
 `git clone https://github.com/pslab-unibo/jpf-template-project.git`
 			- to verify that everything is working:  
 `./gradlew runVerifyAll`
 		- Detailed usage instructions can be found on the web site.
-		- **Notice that JPF works with JDK and JVM version 1.8 (downloaded by the toolchain)**
 	- [JPF lightweight environment repo](https://github.com/pcd-2024-2025/jpf-workspace) 
 		- A customised lightweight repository including JPF binaries is available on the PCD course github organisation
 			- details in the [README](https://github.com/pcd-2024-2025/jpf-workspace)
