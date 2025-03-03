@@ -51,3 +51,5 @@ PCD a.y. 2024-2025 - ISI LM UNIBO - Cesena Campus
 		- A customised lightweight repository including JPF binaries is available on the PCD course github organisation
 			- details in the [README](https://github.com/pcd-2024-2025/jpf-workspace)
 		- Requires **JDK 8** to be installed locally (e.g. from [here](https://www.oracle.com/it/java/technologies/downloads/))  
+	- [JPF lightweight environment repo with Docker](https://github.com/pcd-2024-2025/jpf-docker) 
+		- The same customised lightweight repository as above, but to be used with Docker and not requiring a local JDK 8
