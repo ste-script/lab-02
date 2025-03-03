@@ -8,10 +8,8 @@ public class UnsafeCounter {
 		this.cont = base;
 	}
 
-	public void inc() {
-		synchronized (this) {
-			cont++;
-		}
+	public synchronized void inc() {
+		cont++;
 	}
 
 	public int getValue() {
