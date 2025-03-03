@@ -12,13 +12,13 @@ public class Worker extends Thread {
 	}
 
 	public void run() {
-		synchronized (counter) {
-			log("started");
-			for (int i = 0; i < ntimes; i++) {
+		log("started");
+		for (int i = 0; i < ntimes; i++) {
+			synchronized (counter) {
 				counter.inc();
 			}
-			log("completed");
 		}
+		log("completed");
 	}
 
 	private void log(String msg) {
